@@ -7,7 +7,7 @@ class CardEntry {
         this.name = name;
         this.colour = colour;
         this.rarity = rarity;
-        this.edition = edition;
+        this.edition = edition.toLowerCase();
         entries.push(this);
 
     }
@@ -25,14 +25,14 @@ class CardEntry {
         if (edition == "") {
             edition = "any"
         }
-        if (name != "any" && !this.name.includes(name)) {
+        if (name != "any" && !this.name.toLowerCase().includes(name)) {
             return false;
 
-        } else if (colour != this.colour && colour != "any") {
+        } else if (!this.colour.toLowerCase().includes(colour) && colour != "any") {
 
             return false;
 
-        } else if (rarity != this.rarity && rarity != "any") {
+        } else if (!this.rarity.toLowerCase().includes(rarity) && rarity != "any") {
 
             return false;
 
