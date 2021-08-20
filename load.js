@@ -94,7 +94,7 @@ new CardEntry('0310020000004', 'Duty-Bound Dead', 'Black', 'Common', 'Magic 2013
 new CardEntry('0310150000014', 'Drudge Skeletons', 'Black', 'Common', 'Duels of the Planeswalkers');
 new CardEntry('0010220000001', 'Accursed Spirit', 'Black', 'Common', 'Magic 2014');
 new CardEntry('0010040000007', 'Assassinate', 'Black', 'Common', 'Magic 2010');
-new CardEntry('0010100000008', 'Altar's Reap', 'Black', 'Common', 'Inistrad');
+new CardEntry('0010100000008', "Altar's Reap", 'Black', 'Common', 'Inistrad');
 new CardEntry('0010150000003', 'Ascendant Evincar', 'Black', 'Rare', 'Duels of the Planeswalkers');
 new CardEntry('0110100000005', 'Bump in the Night', 'Black', 'Common', 'Inistrad');
 new CardEntry('0110250000009', 'Balustrade Spy', 'Black', 'Common', 'Gatecrash');
@@ -131,4 +131,4 @@ new CardEntry('0820090000007', 'Incinerate', 'Red', 'Common', 'Magic 2012');
 new CardEntry('0820110000000', 'Impelled Giant', 'Red', 'Uncommon', 'Eventide');
 new CardEntry('0820040000002', 'Ignite Disorder', 'Red', 'Uncommon', 'Magic 2010');
 new CardEntry('2100020000009', 'Void Stalker', 'Blue', 'Rare', 'Magic 2013');
-new CardEntry('1200010000000', 'Maze Glider', 'Blue', 'Common', 'Dragon's Maze');
+new CardEntry('1200010000000', 'Maze Glider', 'Blue', 'Common', "Dragon's Maze");
