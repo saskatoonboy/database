@@ -57,25 +57,35 @@ new CardEntry('0210160000028', 'Curse of Thirst', 'Black', 'Uncommon', 'Dark Asc
 new CardEntry('0310090000003', 'Dark Favor', 'Black', 'Common', 'Magic 2012');
 new CardEntry('0310100000009', 'Dead Weight', 'Black', 'Common', 'Inistrad');
 new CardEntry('0310160000001', 'Deadly Allure', 'Black', 'Uncommon', 'Dark Ascension');
-new CardEntry('0310230000029', 'Death of a Thousand Stings', 'Black', 'Common', 'Saviors of Kamigawa');
+new CardEntry('0310230000009', 'Death Denied', 'Black', 'Common', 'Saviors of Kamigawa');
+new CardEntry('0310230000023', 'Death of a Thousand Stings', 'Black', 'Common', 'Saviors of Kamigawa');
 new CardEntry('0310000000000', 'Death Pit Offering', 'Black', 'Rare', 'Eighth Edition');
 new CardEntry('0310300000007', 'Death Pulse', 'Black', 'Uncommon', 'Onslaught');
+new CardEntry('0310160000018', "Death's Caress", 'Black', 'Common', 'Dark Ascension');
 new CardEntry('0310230000019', 'Deathknell Kami', 'Black', 'Common', 'Saviors of Kamigawa');
+new CardEntry('0310090000010', 'Deathmark', 'Black', 'Uncommon', 'Magic 2012');
 new CardEntry('0310060000019', 'Demoic Taskmaster', 'Black', 'Uncommon', 'Avacyn Restored');
-new CardEntry('0310060000022', 'Demonlord of Ashmouth', 'Black', 'Rare', 'Avacyn Restored');
+new CardEntry('0310060000026', 'Demonlord of Ashmouth', 'Black', 'Rare', 'Avacyn Restored');
 new CardEntry('0310190000002', 'Despise', 'Black', 'Uncommon', 'New Phyrexia');
+new CardEntry('0310090000027', 'Diabolic Tutor', 'Black', 'Uncommon', 'Magic 2012');
 new CardEntry('0310320000001', 'Diregraf Ghoul', 'Black', 'Uncommon', 'Blessed vs Cursed');
+new CardEntry('0310190000019', 'Dismember', 'Black', 'Uncommon', 'New Phyrexia');
 new CardEntry('0310030000001', 'Doom Blade', 'BLack', 'Common', 'Magic 2011');
 new CardEntry('0310090000041', 'Doom Blade', 'Black', 'Common', 'Magic 2012');
 new CardEntry('0310220000019', 'Doom Blade', 'Black', 'Uncommon', 'Magic 2014');
-new CardEntry('0310180000015', 'Drainpipe Vermin', 'Black', 'Common', 'Return of Ravnica');
+new CardEntry('0310180000012', 'Drainpipe Vermin', 'Black', 'Common', 'Return of Ravnica');
+new CardEntry('0310320000018', 'Dread Return', 'Black', 'Uncommon', 'Blessed vs Cursed');
 new CardEntry('0310320000025', 'Driver of the Dead', 'Black', 'Common', 'Blessed vs Cursed');
-new CardEntry('0310150000014', 'Drudge Skeletons', 'Black', 'Common', 'Duels of the Planeswalkers');
+new CardEntry('0310060000033', 'Driver of the Dead', 'Black', 'Common', 'Avacyn Restored');
+new CardEntry('0310130000000', 'Dross Hopper', 'Black', 'Common', 'Scars of Mirrodin');
+new CardEntry('0310150000011', 'Drudge Skeletons', 'Black', 'Common', 'Duels of the Planeswalkers');
 new CardEntry('0310310000004', 'Duress', 'Black', 'Common', 'Eternal Masters');
 new CardEntry('0310040000008', 'Duress', 'Black', 'Common', 'Magic 2010');
-new CardEntry('0310090000033', 'Duskhunter Bat', 'Black', 'Common', 'Magic 2012');
+new CardEntry('0310220000002', 'Duress', 'Black', 'Common', 'Magic 2014');
+new CardEntry('0310090000034', 'Duskhunter Bat', 'Black', 'Common', 'Magic 2012');
 new CardEntry('0310150000004', 'Dusk Imp', 'Black', 'Common', 'Duels of the Planeswalkers');
-new CardEntry('0310020000014', 'Dushmantle Prowler', 'Black', 'Uncommon', 'Magic 2013');
+new CardEntry('0310020000011', 'Dushmantle Prowler', 'Black', 'Uncommon', 'Magic 2013');
+new CardEntry('0310070000009', 'Dutiful Return', 'Black', 'Common', 'Battle for Zendikar');
 new CardEntry('0310020000004', 'Duty-Bound Dead', 'Black', 'Common', 'Magic 2013');
 
 new CardEntry('0410020000001', 'Essence Drain', 'Black', 'Common', 'Magic 2013');
@@ -159,4 +169,3 @@ new CardEntry('2110320000005', 'Victim of Night', 'Black', 'Common', 'Blessed vs
 new CardEntry('2100020000009', 'Void Stalker', 'Blue', 'Rare', 'Magic 2013');
 
 new CardEntry('2200000000002', 'Wrath of Marit Lage', 'Blue', 'Uncommon', 'Eighth Edition');
-new CardEntry('0310320000018', 'Dread Return', 'Black', 'Uncommon', 'Blessed vs Cursed');
