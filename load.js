@@ -206,3 +206,10 @@ new CardEntry("0210090000020", 'Child of Night', 'Black', 'Common', 'Magic 2012'
 new CardEntry("0210330000025", 'Consume the Meek', 'Black', 'Rare', 'Zendikar vs Eldrazi');
 new CardEntry("0210130000027", 'Contagious Nim', 'Black', 'Common', 'Scars of Mirrodin');
 new CardEntry("0210120000006", 'Creeping Dread', 'Black', 'Uncommon', 'Shadows over Innistrad');
+new CardEntry("0210120000013", 'Crow of Dark Tidings', 'Black', 'Common', 'Shadows over Innistrad');
+new CardEntry("0210060000012", 'Crypt Creeper', 'Black', 'Common', 'Avacyn Restored');
+new CardEntry("0210250000006", 'Crypt Ghast', 'Black', 'Rare', 'Gatecrash');
+new CardEntry("0210010000000", 'Crypt Incursion', 'Black', 'Common', 'Dragon's Maze');
+new CardEntry("0310370000006", 'Dark Triumph', 'Black', 'Uncommon', 'Nemesis');
+new CardEntry("0310190000026", 'Dementia Bat', 'Black', 'Common', 'New Phyrexia');
+new CardEntry("0310090000089", 'Devouring Swarm', 'Black', 'Common', 'Magic 2012');
