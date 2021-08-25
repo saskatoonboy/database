@@ -189,3 +189,9 @@ new CardEntry('0010140000006', 'Ancient Craving', 'Black', 'Rare', 'Sorin vs Tib
 new CardEntry('0010060000001', 'Appetite for Brains', 'Black', 'Uncommon', 'Avacyn Restored');
 new CardEntry('0010340000004', 'Asphyxiate', 'Black', 'Common', 'Born of the Gods');
 new CardEntry('0010180000004', 'Assassin's Strike', 'Black', 'Uncommon', 'Return to Ravnica');
+new CardEntry('0110250000016', 'Basilica Screecher', 'Black', 'Common', 'Gatecrash');
+new CardEntry('0110160000007', 'Black Cat', 'Black', 'Common', 'Dark Ascension');
+new CardEntry('0110340000001', 'Black Oak of Odunos', 'Black', 'Uncommon', 'Born of the Gods');
+new CardEntry('0110130000013', 'Blackcleave Goblin', 'Black', 'Common', 'Scars of Mirrodin');
+new CardEntry('0110090000023', 'Blood Seeker', 'Black', 'Common', 'Magic 2012');
+new CardEntry('0110100000036', 'Brain Weevil', 'Black', 'Common', 'Innistrad');

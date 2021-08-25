@@ -1,3 +1,5 @@
+# print barcodes at 130% scale
+
 import os
 import math
 
