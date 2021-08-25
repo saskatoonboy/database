@@ -26,7 +26,7 @@ for line in barcodesFile:
 barcodesFile.close()
 colours = ["blue", "black", "red", "green", "white"]
 editions = ["eighth edition", "dragon's maze", "magic 2013", "magic 2011", "magic 2010", "mirage", "avacyn restored",
-            "battle for zendikar", "shards of alara", "magic 2012", "innistrad", "eventide", "shadows over innistrad",
+            "battle for zendikar", "shards of alara", "magic 2012", "inistrad", "eventide", "shadows over inistrad",
             "scars of mirrodin", "sorin vs tibalt", "duels of the planeswalkers", "dark ascension", "fire and lightning",
             "return of ravnica", "new phyrexia", "coldsnap", "mirrodin besieged", "magic 2014", "saviors of kamigawa",
             "theros", "gatecrash", "zendikar", "torment", "seventh edition", "saviors of kamigawa", "onslaught",
@@ -38,6 +38,7 @@ while True:
     color = input("Colour\n")
     rarity = input("Rarity\n")
     cardType = input("Type\n")
+    cardCount = input("Amount\n")
     imageAddress = input("Image\n")
 
     part1 = str(alphabet.find(cardName[0].lower()))
@@ -107,7 +108,7 @@ while True:
       <h2>"""+color+"""</h2>
       <h2>"""+rarity+"""</h2>
       <h2>"""+cardType+"""</h2>
-      <h3>Own 0</h3>
+      <h3>Own """+cardCount+"""</h3>
       <img src="""+imageAddress+""">
 
     </body>
@@ -115,13 +116,7 @@ while True:
     
     dataFile.write(data)
     dataFile.close()
-        
-    files = os.listdir("../database")
-    loadFile = open("load.js", "a")
-                        
-    loadFile.write("new CardEntry('"+barcode+"', '"+cardName+"', '"+color+"', '"+rarity+"', '"+edition+"');\n")
-
-    loadFile.close()
+    
 
 # eighth edition - 0
 # dragon's maze - 1

@@ -169,3 +169,17 @@ new CardEntry('2110320000005', 'Victim of Night', 'Black', 'Common', 'Blessed vs
 new CardEntry('2100020000009', 'Void Stalker', 'Blue', 'Rare', 'Magic 2013');
 
 new CardEntry('2200000000002', 'Wrath of Marit Lage', 'Blue', 'Uncommon', 'Eighth Edition');
+new CardEntry('0210040000001', 'Consume Spirit', 'Black', 'Uncommon', 'Magic 2010');
+new CardEntry('0310020000028', 'Dark Favor', 'Black', 'Common', 'Magic 2013');
+new CardEntry('0310120000003', 'Dead Weight', 'Black', 'Common', 'Shadows over Innistrad');
+new CardEntry('0310100000016', 'Disciple of Griselbrand', 'Black', 'Uncommon', 'Innistrad');
+new CardEntry('0310300000014', 'Disciple of Malice', 'Black', 'Common', 'Onslaught');
+new CardEntry('0310240000006', 'Disciple of Phenax', 'Black', 'Common', 'Theros');
+new CardEntry('0310090000058', 'Disentomb', 'Black', 'Common', 'Magic 2012');
+new CardEntry('0310090000065', 'Distress', 'Black', 'Common', 'Magic 2012');
+new CardEntry('0310090000072', 'Drifting Shade', 'Black', 'Common', 'Magic 2012');
+new CardEntry('0410060000016', 'Evernight Shade', 'Black', 'Uncommon', 'Avacyn Restored');
+new CardEntry('0410130000007', 'Exsanguinate', 'Black', 'Uncommon', 'Scars of Mirrodin');
+new CardEntry('0510270000001', 'Faceless Butcher', 'Black', 'Common', 'Torment');
+new CardEntry('0510100000003', 'Falkenrath Noble', 'Black', 'Uncommon', 'Innistrad');
+new CardEntry('1810320000036', 'Sever the Bloodline', 'Black', 'Rare', 'Blessed vs Cursed');
