@@ -28,9 +28,9 @@ colours = ["blue", "black", "red", "green", "white"]
 editions = ["eighth edition", "dragon's maze", "magic 2013", "magic 2011", "magic 2010", "mirage", "avacyn restored",
             "battle for zendikar", "shards of alara", "magic 2012", "innistrad", "eventide", "shadows over innistrad",
             "scars of mirrodin", "sorin vs tibalt", "duels of the planeswalkers", "dark ascension", "fire and lightning",
-            "return of ravnica", "new phyrexia", "coldsnap", "mirrodin besieged", "magic 2014", "saviors of kamigawa",
+            "return to ravnica", "new phyrexia", "coldsnap", "mirrodin besieged", "magic 2014", "saviors of kamigawa",
             "theros", "gatecrash", "zendikar", "torment", "seventh edition", "saviors of kamigawa", "onslaught",
-            "eternal masters", "blessed vs cursed","zendikar vs eldrazi"]
+            "eternal masters", "blessed vs cursed","zendikar vs eldrazi", "born of the gods"]
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 while True:
     cardName = input("Name\n")
