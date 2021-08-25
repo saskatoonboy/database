@@ -33,7 +33,7 @@ editions = ["eighth edition", "dragon's maze", "magic 2013", "magic 2011", "magi
             "return to ravnica", "new phyrexia", "coldsnap", "mirrodin besieged", "magic 2014", "saviors of kamigawa",
             "theros", "gatecrash", "zendikar", "torment", "seventh edition", "saviors of kamigawa", "onslaught",
             "eternal masters", "blessed vs cursed","zendikar vs eldrazi", "born of the gods", "worldwake", "magic 2015",
-            "nemesis"]
+            "nemesis", "fourth edition"]
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 while True:
     cardName = input("Name\n")
@@ -164,3 +164,4 @@ while True:
 # worldwake - 35
 # magic 2015 - 36
 # nemesis - 37
+# fourth edition - 38

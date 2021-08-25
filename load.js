@@ -213,3 +213,15 @@ new CardEntry("0210010000000", 'Crypt Incursion', 'Black', 'Common', 'Dragon's M
 new CardEntry("0310370000006", 'Dark Triumph', 'Black', 'Uncommon', 'Nemesis');
 new CardEntry("0310190000026", 'Dementia Bat', 'Black', 'Common', 'New Phyrexia');
 new CardEntry("0310090000089", 'Devouring Swarm', 'Black', 'Common', 'Magic 2012');
+new CardEntry("0310000000017", 'Diabolic Tutor', 'Black', 'Uncommon', 'Eighth Edition');
+new CardEntry("0310220000026", 'Diabolic Tutor', 'Black', 'Uncommon', 'Magic 2014');
+new CardEntry("0310120000010", 'Diregraf Colossus', 'Black', 'Rare', 'Shadows over Innistrad');
+new CardEntry("0310000000024", 'Dusk Imp', 'Black', 'Common', 'Eighth Edition');
+new CardEntry("0310060000040", 'Dread Slaver', 'Black', 'Rare', 'Avacyn Restored');
+new CardEntry("0310250000003", 'Dying Wish', 'Black', 'Uncommon', 'Gatecrash');
+new CardEntry("0410340000002", 'Eater of Hope', 'Black', 'Rare', 'Born of the Gods');
+new CardEntry("0410100000006", 'Endless Ranks of the Dead', 'Black', 'Rare', 'Innistrad');
+new CardEntry("0410380000000", 'Evil Presence', 'Black', 'Uncommon', 'Fourth Edition');
+new CardEntry("0410340000019", 'Eye Gouge', 'Black', 'Common', 'Born of the Gods');
+new CardEntry("0510300000001", 'Fallen Cleric', 'Black', 'Common', 'Onslaught');
+new CardEntry("0510160000005", 'Farbog Boneflinger', 'Black', 'Uncommon', 'Dark Ascension');
