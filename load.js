@@ -195,3 +195,14 @@ new CardEntry('0110340000001', 'Black Oak of Odunos', 'Black', 'Uncommon', 'Born
 new CardEntry('0110130000013', 'Blackcleave Goblin', 'Black', 'Common', 'Scars of Mirrodin');
 new CardEntry('0110090000023', 'Blood Seeker', 'Black', 'Common', 'Magic 2012');
 new CardEntry('0110100000036', 'Brain Weevil', 'Black', 'Common', 'Innistrad');
+new CardEntry("0110350000008", 'Brink of Disaster', 'Black', 'Common', 'Worldwake');
+new CardEntry("0110140000003", 'Bump in the Night', 'Black', 'Common', 'Sorin vs Tibalt');
+new CardEntry("0110060000022", 'Butcher Ghoul', 'Black', 'Common', 'Avacyn Restored');
+new CardEntry("0210070000002", 'Carrier Thrall', 'Black', 'Uncommon', 'Battle for Zendikar');
+new CardEntry("0210360000002", 'Carrion Crow', 'Black', 'Common', 'Magic 2015');
+new CardEntry("0210090000013", 'Cemetery Reaper', 'Black', 'Rare', 'Magic 2012');
+new CardEntry("0210220000012", 'Child of Night', 'Black', 'Common', 'Magic 2014');
+new CardEntry("0210090000020", 'Child of Night', 'Black', 'Common', 'Magic 2012');
+new CardEntry("0210330000025", 'Consume the Meek', 'Black', 'Rare', 'Zendikar vs Eldrazi');
+new CardEntry("0210130000027", 'Contagious Nim', 'Black', 'Common', 'Scars of Mirrodin');
+new CardEntry("0210120000006", 'Creeping Dread', 'Black', 'Uncommon', 'Shadows over Innistrad');
