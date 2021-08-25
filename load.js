@@ -183,12 +183,12 @@ new CardEntry('0410130000007', 'Exsanguinate', 'Black', 'Uncommon', 'Scars of Mi
 new CardEntry('0510270000001', 'Faceless Butcher', 'Black', 'Common', 'Torment');
 new CardEntry('0510100000003', 'Falkenrath Noble', 'Black', 'Uncommon', 'Innistrad');
 new CardEntry('1810320000036', 'Sever the Bloodline', 'Black', 'Rare', 'Blessed vs Cursed');
-new CardEntry('0010070000008', 'Altar's Reap', 'Black', 'Common', 'Battle for Zendikar');
+new CardEntry('0010070000008', "Altar's Reap", 'Black', 'Common', 'Battle for Zendikar');
 new CardEntry('0010100000015', 'Abattoir Ghoul', 'Black', 'Uncommon', 'Innistrad');
 new CardEntry('0010140000006', 'Ancient Craving', 'Black', 'Rare', 'Sorin vs Tibalt');
 new CardEntry('0010060000001', 'Appetite for Brains', 'Black', 'Uncommon', 'Avacyn Restored');
 new CardEntry('0010340000004', 'Asphyxiate', 'Black', 'Common', 'Born of the Gods');
-new CardEntry('0010180000004', 'Assassin's Strike', 'Black', 'Uncommon', 'Return to Ravnica');
+new CardEntry('0010180000004', "Assassin's Strike", 'Black', 'Uncommon', 'Return to Ravnica');
 new CardEntry('0110250000016', 'Basilica Screecher', 'Black', 'Common', 'Gatecrash');
 new CardEntry('0110160000007', 'Black Cat', 'Black', 'Common', 'Dark Ascension');
 new CardEntry('0110340000001', 'Black Oak of Odunos', 'Black', 'Uncommon', 'Born of the Gods');
