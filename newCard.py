@@ -33,7 +33,8 @@ editions = ["eighth edition", "dragon's maze", "magic 2013", "magic 2011", "magi
             "return to ravnica", "new phyrexia", "coldsnap", "mirrodin besieged", "magic 2014", "saviors of kamigawa",
             "theros", "gatecrash", "zendikar", "torment", "seventh edition", "saviors of kamigawa", "onslaught",
             "eternal masters", "blessed vs cursed","zendikar vs eldrazi", "born of the gods", "worldwake", "magic 2015",
-            "nemesis", "fourth edition", "homelands", "journey into nyx"]
+            "nemesis", "fourth edition", "homelands", "journey into nyx", "khans of tarkir", "alliances", "magic 2016"
+            ]
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 while True:
     cardName = input("Name\n")
@@ -122,7 +123,7 @@ while True:
     files = os.listdir("../database")
     loadFile = open("load.js", "a")
                         
-    loadFile.write("new CardEntry(\""+barcode+"\", '"+cardName+"', '"+color+"', '"+rarity+"', '"+edition+"');\n")
+    loadFile.write("new CardEntry('"+barcode+"', \""+cardName+"\", '"+color+"', '"+rarity+"', \""+edition+"\");\n")
 
     loadFile.close()
 
@@ -167,3 +168,6 @@ while True:
 # fourth edition - 38
 # homelands - 39
 # journey into nyx - 40
+# khans of tarkir - 41
+# alliances - 42
+# magic 2016 - 43
