@@ -1,8 +1,6 @@
 import os
 
-while True:
-
-    name = input("Name\n")
+def search(name):
 
     files = os.listdir("../database")
 

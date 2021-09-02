@@ -1,7 +1,6 @@
 # print barcodes at 130% scale
 
 import os
-import math
 
 def getCheck(barcode):
     num1 = 0
@@ -33,16 +32,11 @@ editions = ["eighth edition", "dragon's maze", "magic 2013", "magic 2011", "magi
             "return to ravnica", "new phyrexia", "coldsnap", "mirrodin besieged", "magic 2014", "saviors of kamigawa",
             "theros", "gatecrash", "zendikar", "torment", "seventh edition", "saviors of kamigawa", "onslaught",
             "eternal masters", "blessed vs cursed","zendikar vs eldrazi", "born of the gods", "worldwake", "magic 2015",
-            "nemesis", "fourth edition", "homelands", "journey into nyx", "khans of tarkir", "alliances", "magic 2016"
-            ]
+            "nemesis", "fourth edition", "homelands", "journey into nyx", "khans of tarkir", "alliances", "magic 2016",
+            "urza's legacy", "urza's destiny", "judgement"]
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-while True:
-    cardName = input("Name\n")
-    edition = input("Edition\n")
-    color = input("Colour\n")
-    rarity = input("Rarity\n")
-    cardType = input("Type\n")
-    imageAddress = input("Image\n")
+
+def getBarcode(cardName, edition, color):
 
     part1 = str(alphabet.find(cardName[0].lower()))
 
@@ -83,10 +77,6 @@ while True:
                 if testEdition[char] == "<":
                     testEdition = testEdition[:char]
                 char = char + 1
-                
-            if cardName == testName and edition == testEdition:
-                print(barcode)
-                thing = 100/0
         
     barcodes.append(barcode)
     print(barcode)
@@ -96,7 +86,25 @@ while True:
     
     
     barcode = barcode + getCheck(barcode)
+    print(barcode)
+    return barcode
             
+def makeCard(cardName, edition, color, rarity, cardType, imageAddress, value):
+    
+    
+    barcode = getBarcode(cardName, edition, color)
+    
+    os.listdir()
+
+    files = os.listdir("../database")
+
+    for file in files:
+        if file == barcode:
+            
+            addValue(barcode, value)
+            
+            return barcode
+    
     os.mkdir("/Users/eric/Documents/GitHub/database/"+barcode+"/")
     dataFile = open("/Users/eric/Documents/GitHub/database/"+barcode+"/index.html", "w")
     data = """<!DOCTYPE HTML>
@@ -111,6 +119,7 @@ while True:
       <h2>"""+color+"""</h2>
       <h2>"""+rarity+"""</h2>
       <h2>"""+cardType+"""</h2>
+      <h3>"""+value+"""$</h3>
       <h3>Own 0</h3>
       <img src="""+imageAddress+""">
 
@@ -126,6 +135,21 @@ while True:
     loadFile.write("new CardEntry('"+barcode+"', \""+cardName+"\", '"+color+"', '"+rarity+"', \""+edition+"\");\n")
 
     loadFile.close()
+    return barcode
+
+def addValue(barcode, value):
+    
+    
+    cardFile = open(name+"/index.html", "r")
+    data = cardFile.read()
+    cardFile.close()
+
+    index = data.index("<h3>")
+    data = data[:index+4]+"""\n      <h3>"""+str(value)+"""</h3>"""+data[index+5:]
+
+    cardFile = open(name+"/index.html", "w")
+    cardFile.write(data)
+    cardFile.close()
 
 # eighth edition - 0
 # dragon's maze - 1
@@ -171,3 +195,6 @@ while True:
 # khans of tarkir - 41
 # alliances - 42
 # magic 2016 - 43
+# urza's legacy - 44
+# urza's destiny - 45
+# judgement - 46
