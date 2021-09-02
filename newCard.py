@@ -98,12 +98,9 @@ def makeCard(cardName, edition, color, rarity, cardType, imageAddress, value):
 
     files = os.listdir("../database")
 
-    for file in files:
-        if file == barcode:
-            
-            addValue(barcode, value)
-            
-            return barcode
+    if barcode in files:
+        print("barcode error")
+        return
     
     os.mkdir("/Users/eric/Documents/GitHub/database/"+barcode+"/")
     dataFile = open("/Users/eric/Documents/GitHub/database/"+barcode+"/index.html", "w")
