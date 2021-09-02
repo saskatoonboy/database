@@ -35,28 +35,6 @@ def addValue(value):
     return totalValue
 
 
-barcodeFile = open("barcodes.txt", "r")
-barcodesData = barcodeFile.read()
-barcodeFile.close()
-barcodes = []
-
-while len(barcodesData) > 0:
-    index = barcodesData.index("\n")
-    if index == -1:
-        index = len(barcodesData)
-    barcode = barcodesData[:index]
-    if not (barcode in barcodes):
-        barcodesData = barcodesData[index+2:]
-
-barcodesData = ""
-
-for barcode in barcodes:
-    
-    barcodesData = barcodesData + barcode + "\n"
-    
-barcodeFile = open("barcodes.txt", "w")
-barcodeFile.write(barcodesData)
-barcodeFile.close()
 
 while True:
     
