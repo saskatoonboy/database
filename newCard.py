@@ -33,7 +33,8 @@ editions = ["eighth edition", "dragon's maze", "magic 2013", "magic 2011", "magi
             "theros", "gatecrash", "zendikar", "torment", "seventh edition", "saviors of kamigawa", "onslaught",
             "eternal masters", "blessed vs cursed","zendikar vs eldrazi", "born of the gods", "worldwake", "magic 2015",
             "nemesis", "fourth edition", "homelands", "journey into nyx", "khans of tarkir", "alliances", "magic 2016",
-            "urza's legacy", "urza's destiny", "judgement", "oath of the gatewatch", "future sight", "prophecy"]
+            "urza's legacy", "urza's destiny", "judgement", "oath of the gatewatch", "future sight", "prophecy",
+            "welcome deck 2016"]
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 def getBarcode(cardName, edition, color):
@@ -198,3 +199,4 @@ def addValue(barcode, value):
 # oath of the gatewatch - 47
 # future sight - 48
 # prophecy - 49
+# welcome deck 2016 - 50

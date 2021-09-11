@@ -45,15 +45,15 @@ while True:
         
                 
         name = input("Name\n")
-        edition = input("Edition\n")
+        #edition = input("Edition\n")
         #color = input("Colour\n")
         #rarity = input("Rarity\n")
+        kind = input("Type\n")
         #name = "Island"
-        #edition = "Magic 2015"
+        edition = "Magic 2012"
         color = "Blue"
         rarity = "Common"
         #kind = "Basic Land - Island"
-        kind = input("Type\n")
         image = input("Image\n")
         value = input("Value\n")
         
