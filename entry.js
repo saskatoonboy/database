@@ -4,7 +4,7 @@ class CardEntry {
     constructor(id, name, colour, rarity, edition) {
 
         this.id = id;
-        this.name = name;
+        this.name = name + " ("+edition+")";
         this.colour = colour;
         this.rarity = rarity;
         this.edition = edition.toLowerCase();

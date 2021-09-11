@@ -25,16 +25,15 @@ def addValue(value):
 
     valFile = open("value.txt", "r")
     totalValue = valFile.read()
-    totalValue = float(totalValue)
+    totalValue = int(totalValue)
     totalValue = totalValue + value
-    totalValue = math.floor(totalValue * 100)/100
     valFile.close()
     valFile = open("value.txt", "w")
     valFile.write(str(totalValue))
     valFile.close()
     return totalValue
 
-
+lastCode = ""
 
 while True:
     
@@ -47,13 +46,18 @@ while True:
                 
         name = input("Name\n")
         edition = input("Edition\n")
-        color = input("Colour\n")
-        rarity = input("Rarity\n")
+        #color = input("Colour\n")
+        #rarity = input("Rarity\n")
+        #name = "Island"
+        #edition = "Magic 2015"
+        color = "Blue"
+        rarity = "Common"
+        #kind = "Basic Land - Island"
         kind = input("Type\n")
         image = input("Image\n")
         value = input("Value\n")
         
-        newCard.makeCard(name, edition, color, rarity, kind, image, value)
+        lastCode = newCard.makeCard(name, edition, color, rarity, kind, image, value)
         
     elif args[0] == "add":
         
@@ -82,6 +86,10 @@ while True:
         if len(args) == 1:
             print("Need code")
         else:
+            
+            if args[1] == "last":
+                args[1] = lastCode
+            
             file = open(args[1]+"/index.html", "r")
             data = file.read()
             file.close()
@@ -90,6 +98,9 @@ while True:
                 amount = int(args[2])
             indexEnd = data.index("$</h3>\n")
             indexStart = data.index("<h3>")
-            value = float(data[indexStart+4:indexEnd])
-            print(addValue(value*amount))
+            value = int(data[indexStart+4:indexEnd].replace(".", ""))
+            print(addValue(value*amount)/100)
+    elif args[0] == "addCount":
+        if len(args) > 1:
+            print(addValue(int(args[1].replace(".", "")))/100)
             
