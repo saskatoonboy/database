@@ -25,7 +25,7 @@ barcodes = []
 for line in barcodesFile:
     barcodes.append(line[0:len(line)-1])
 barcodesFile.close()
-colours = ["blue", "black", "red", "green", "white"]
+colours = ["blue", "black", "red", "green", "white", "mix", "grey", "gold"]
 editions = ["eighth edition", "dragon's maze", "magic 2013", "magic 2011", "magic 2010", "mirage", "avacyn restored",
             "battle for zendikar", "shards of alara", "magic 2012", "innistrad", "eventide", "shadows over innistrad",
             "scars of mirrodin", "sorin vs tibalt", "duels of the planeswalkers", "dark ascension", "fire and lightning",
@@ -33,8 +33,9 @@ editions = ["eighth edition", "dragon's maze", "magic 2013", "magic 2011", "magi
             "theros", "gatecrash", "zendikar", "torment", "seventh edition", "saviors of kamigawa", "onslaught",
             "eternal masters", "blessed vs cursed","zendikar vs eldrazi", "born of the gods", "worldwake", "magic 2015",
             "nemesis", "fourth edition", "homelands", "journey into nyx", "khans of tarkir", "alliances", "magic 2016",
-            "urza's legacy", "urza's destiny", "judgement", "oath of the gatewatch", "future sight", "prophecy",
-            "welcome deck 2016"]
+            "urza's legacy", "urza's destiny", "judgment", "oath of the gatewatch", "future sight", "prophecy",
+            "welcome deck 2016", "alara reborn", "izzet vs golgari", "venser vs koth", "dragons of tarkir", "speed vs cunning",
+            "tempest"]
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 
 def getBarcode(cardName, edition, color):
@@ -200,3 +201,9 @@ def addValue(barcode, value):
 # future sight - 48
 # prophecy - 49
 # welcome deck 2016 - 50
+# alara reborn - 51
+# izzet vs golgari - 52
+# venser vs koth - 53
+# dragons of tarkir - 54
+# speed vs cunning - 55
+# tempest - 56
